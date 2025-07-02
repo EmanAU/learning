@@ -1,0 +1,28 @@
+# 🔧 Visual Studio general
+.vs/
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+
+# 🔨 Build outputs
+*.obj
+*.exe
+*.log
+*.pdb
+*.idb
+*.ipch
+*.aps
+*.ncb
+
+# 🗂️ Project-specific
+*.vcxproj.user
+*.cache
+*.tlog
+*.lastbuildstate
+*.ilk
+
+# 🔧 CMake or other tools
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
