@@ -2,18 +2,17 @@
 #include <string>
 using namespace std;
 
-class Feature {
-public:
-	void function() {
-		cout << "This is the module that I have added in the new branch" << endl;
-	}
-};
+template <typename T, typename U>
+U add(T a, U b) {
+	return a + b;
+}
 
 int main() {
 
-	Feature f;
-	f.function();
-	cout << endl;
+	int a = 10;
+	float b = 2.4;
+
+	cout << add<int, float>(a, b) << endl;
 
 	return 0;
 }
